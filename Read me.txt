@@ -1,0 +1,32 @@
+<----------This project is to Develop the Software Employee Menagement System is build by the Nodejs and Express server with MySQL database------------------->
+
+
+Steps folllow
+
+1. To be install Nodejs 
+2. To be activate the Terminal in cmd  or Visual studio code Editor
+3. npm init
+4. needed packages install by Nodejs
+5. package.json file insite craete for start comment with need to access the potr and nodemon
+6. server file create by the Index.js only
+7. needed files and folders to be create the similar maner of the this code file
+8. To move on mysql database create database in gokul_app_node
+9. Table name users
+8. npm run start
+9. move to browser type  : http://localhost:8080/
+10. project is successfully run.
+
+
+
+
+
+.env  file is must be created this code below
+
+
+.env
+DB_HOST =localhost
+DB_NAME=gokul_app_node
+DB_USER =root
+DB_PASS =""
+
+<----------Thank you ------------------->

@@ -1,0 +1,26 @@
+<h1>Software Employee Management System</h1>
+<p> <a  class="addbtn" href="/adduser" >Add User</a></p>
+<table>
+    <thead>
+        <tr>
+            <td>Id</td>
+             <td>Name</td>
+              <td>Age</td>
+               <td>City</td>
+                <td>Edit</td>
+                 <td>Delete</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each rows}}
+        <tr>
+            <td>{{this.id}}</td>
+             <td>{{this.name}}</td>
+              <td>{{this.age}}</td>
+               <td>{{this.city}}</td>
+                <td><a class="edit" href="/edituser/{{this.id}}">Edit</a></td>
+                 <td><a onclick="return confirm('Are You sure?')" class="delete" href="/deleteuser/{{this.id}}">Delete</a></td>
+        </tr>
+        {{/each}}
+</tbody>
+</table>
